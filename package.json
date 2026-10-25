@@ -1,21 +1,27 @@
 {
-  "name": "pokedex",
-  "version": "1.0.0",
-  "main": "index.js",
-  "type": "module",
-  "scripts": {
-    "build": "npx tsc",
-    "start": "node dist/main.js",
-    "dev": "npx tsc && node dist/main.js",
-    "test": "vitest --run --exclude \"**/dist/**\""
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
-  "devDependencies": {
-    "@types/node": "^26.6.5",
-    "typescript": "^7.0.2",
-    "vitest": "^5.0.5"
-  }
+    "name": "pokedex",
+    "version": "1.0.0",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "build": "npx tsc",
+        "start": "node dist/main.js",
+        "dev": "npx tsc && node dist/main.js",
+        "test": "vitest --run --exclude \"**/dist/**\""
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "devDependencies": {
+        "@types/node": "^26.6.5",
+        "typescript": "^7.0.2",
+        "vitest": "^5.0.5"
+    }
 }
+
+// it acts as central mainfest located in the root directory 
+// it serves primarily three functions: 
+// 1. recordds project metadata
+// 2. manages external dependencies
+// 3. automates workflows through custom command scripts.
