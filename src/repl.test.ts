@@ -18,6 +18,10 @@ describe.each([
         input: "test the values",
         expected: ["test", "the", "values"],
     },
+    {
+        input: "more will fail",
+        expected: ["more", "will", "fail"],
+    }
     // TODO: more test cases here
 ])("cleanInput($input)", ({ input, expected }) => {
     test(`Expected: ${expected}`, () => {
