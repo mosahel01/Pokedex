@@ -1,4 +1,4 @@
-import { cleanInput} from "./repl.js";
+import { cleanInput } from "./repl.js";
 import { describe, expect, test } from "vitest";
 
 describe.each([
@@ -21,7 +21,7 @@ describe.each([
     {
         input: "more will fail",
         expected: ["more", "will", "fail"],
-    }
+    },
     // TODO: more test cases here
 ])("cleanInput($input)", ({ input, expected }) => {
     test(`Expected: ${expected}`, () => {
